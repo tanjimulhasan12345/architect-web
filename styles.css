@@ -145,7 +145,14 @@ main{
                 margin-top: 180px;
                 margin-bottom: 24px;}
 
-.sponspors{ text-align: center;}
+/* sponsors styles */
+
+.sponsors{ text-align: center;}
+
+.sponsors-img-contaier{display: flex;
+                        justify-content: space-evenly;
+                        gap: 50px;
+                        align-items: center;}
 
 /* responsive styles */
 
@@ -177,6 +184,11 @@ ul{padding-left: 0px;}
                         align-items: center;
                         gap: 20px;}
 
+.sponsors-img-contaier{flex-direction: column;}
+
+.sponsors-img-contaier img{width: 165px;
+                           }
+
 }
 
 /* tablet and laptops */
@@ -195,6 +207,14 @@ ul{padding-left: 0px;}
 grid-template-columns: repeat(2,1fr);
 gap: 20px;
 margin-left: 100px;}
+
+.sponsors-img-contaier{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding-left: 130px;
+    }
+
+
 
 }
  
